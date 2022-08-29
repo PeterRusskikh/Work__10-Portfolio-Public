@@ -10,14 +10,14 @@
 	position: relative;
 	padding-top: 30px;
   }
-  h2.title{
+  .title {
 	font-size: 44px;
 	font-weight: bold;
 	text-align: center;
 	padding-bottom: 45px;
 	position: relative;
   }
-  h2.title:after{
+  .title:after{
 	content: "";
 	position: absolute;
 	width: 100px;
