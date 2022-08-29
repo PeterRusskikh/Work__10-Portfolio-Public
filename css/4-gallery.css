@@ -6,7 +6,7 @@
   body{
 	position: relative;
   }
-  section.gallery{
+.gallery{
 	position: relative;
 	padding-top: 30px;
   }
