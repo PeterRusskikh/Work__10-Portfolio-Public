@@ -2,9 +2,10 @@
 <html lang="ru">
   <head>
     <title></title>
-    <link rel="stylesheet" href="css/3-portfolio.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+	<link rel="stylesheet" href="css/4-gallery.css" />
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <link href="https://fonts.googleapis.com/css?family=Inter:regular,700" rel="stylesheet" />
     <script defer src="js/script.js"></script>
   </head>
@@ -41,16 +42,57 @@
       
 
       <main class="main" id="main">
-        <div class="main__container portfolio _container">
-          <div class="page__portfolio">
-            <div class="page__portfolio-top">
-            <div class="page__portfolio-text">
-              <h6>Portfolio</h6>
-              <p>Check out my work, it's the best you've ever seen</p>
-            </div>
-            <div class="page__portfolio-img"><img src="img/logo w.png" alt="Infinity" height="300" width="500"></div>
-          </div>
-        </div>
+		<section class="gallery">
+			<h2 class="title">Gallery</h2>
+			<div class="gallery-list">
+			  <a href="img/Gallery/salad.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/beetle.jpg" alt="alt">
+			  </a>
+			  <a href="img/Gallery/liberty.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/liberty.jpg" alt="alt">
+			  </a>
+			  <a href="img/Gallery/lighthouse.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/lighthouse.jpg" alt="alt">
+			  </a>
+			  <a href="img/Gallery/minimalismo.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/minimalismo.jpg" alt="alt">
+			  </a>
+			  <a href="img/Gallery/salad.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/salad.jpg" alt="alt">
+			  </a>
+			  <a href="img/Gallery/shutterbug.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/shutterbug.jpg" alt="alt">
+			  </a>
+			  <a href="img/Gallery/skaterboy.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/skaterboy.jpg" alt="alt">
+			  </a>
+			  <a href="img/Gallery/woodcraft.jpg" class="gallery-item">
+				<div class="gallery-item-hover">Посмотреть</div>
+				<img src="img/Gallery/woodcraft.jpg" alt="alt">
+			  </a>
+			</div>
+		  </section>
+		
+		
+		  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+			crossorigin="anonymous"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+		  <script>
+			$(".gallery-list").magnificPopup({
+			  delegate: "a",
+			  type: "image",
+			  gallery: {
+				enabled: true
+			  }
+			});
+		  </script>
       </main>
 
 
@@ -59,5 +101,6 @@
       </footer>
   
     </div>
+	
   </body>
 </html>

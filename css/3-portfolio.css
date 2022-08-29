@@ -1,2 +1,77 @@
 @import url(../css/nullstyle.css);
 @import url(../css/header+footer.css);
+
+.page__portfolio-top {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.page__portfolio-text {
+	text-align: center;
+	max-width: 500px;
+	font-size: 85px;	
+}
+.page__portfolio-text h6{
+	font-weight: 700;
+	line-height: 122px;
+}
+.page__portfolio-text p {
+	margin-top: 100px;
+	font-size: 32px;
+	line-height: 38px;
+	font-weight: 400;
+}
+.page__portfolio-img {
+	width: 96%;
+	max-width: 300px;
+	margin-top: 50px;
+}
+.page__portfolio-img img{
+	width: 100%; 
+	height: auto; 
+}
+
+
+
+@media (max-width: 1016px){
+	.page__portfolio-text h6 {
+		margin-top: -20px;
+		font-size: 70px;
+		line-height: 100px;
+	}
+	.page__portfolio-text p {
+		margin-top: 40px;
+		font-size: 28px;
+		line-height: 34px;
+	}
+}
+@media (max-width: 778px){
+	.page__portfolio-img  {
+		display: none;
+	}
+	.page__portfolio-text {
+		margin: 0 auto;
+	}
+	.page__portfolio-skills {
+		margin-top: 16vh;
+	}
+}
+@media (max-width: 598px) {
+	.footer__text {
+		font-size: 18px;
+	}
+	.page__portfolio-text h6 {
+		font-size: 50px;
+	}
+	.page__portfolio-text p {
+		font-size: 23px;
+	}
+}
+@media (max-width: 443px) {
+	.footer__text {
+		font-size: 12px;
+	}	
+}
+@media (max-width: 291px){
+
+}
