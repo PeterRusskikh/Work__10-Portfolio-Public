@@ -78,6 +78,9 @@
 .page__contacts-form input:focus {
 	border: 1px solid black;
 }
+.page__contacts-form textarea:focus {
+	border: 1px solid black;
+}
 .page__contacts-button {
 	margin: 0 auto;
 	margin-top: 40px;
