@@ -3,7 +3,7 @@
 
 .page__contacts {
 	display: flex;
-	margin-top: 30px;
+	margin-top: 60px;
 	justify-content: space-between;
 	column-gap: 10px;
 }
@@ -147,6 +147,11 @@
 }
 @media (max-width: 360px) {
 	.page__contacts-social a:last-child {
+		margin-top: 15px;
+	}
+}
+@media (max-width: 229px) {
+	.page__contacts-social a:nth-child(2) {
 		margin-top: 15px;
 	}
 }

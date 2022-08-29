@@ -11,20 +11,35 @@
 	max-width: 500px;
 	font-size: 85px;	
 }
+
 .page__portfolio-text h6{
-	font-weight: 700;
-	line-height: 122px;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 45px;
+	position: relative;
+  }
+  .page__portfolio-text h6:after{
+	content: "";
+	position: absolute;
+	width: 100px;
+	height: 3px;
+	background-color: #111111;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
 }
 .page__portfolio-text p {
-	margin-top: 100px;
-	font-size: 32px;
+	margin-top: 30px;
+	font-size: 24px;
 	line-height: 38px;
 	font-weight: 400;
 }
 .page__portfolio-img {
 	width: 96%;
 	max-width: 300px;
-	margin-top: 50px;
+	margin-top: 10px;
+	margin-right: 7vw;
 }
 .page__portfolio-img img{
 	width: 100%; 
