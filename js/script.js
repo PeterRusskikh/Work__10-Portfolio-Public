@@ -1,3 +1,5 @@
+
+/* Gallery----------------------------------------------------- */
 const hamburger = document.querySelector(".hamburger");
 const list = document.querySelector(".list");
 const soc = document.querySelector(".soc");
@@ -14,3 +16,21 @@ document.querySelectorAll(".list-link").forEach(n => n.addEventListener("click",
 	soc.classList.remove("active")
 }))
 
+/* Slider----------------------------------------------------- */
+$(document).ready(function () {
+	let position = 0;
+	const slidesToShow = 3;
+	const slidesToScroll = 2;
+	const container = $('.slider-container');
+	const track = $('.slider-track');
+	const item = $('.slider-item');
+	const btnPrew = $('.buttons-prew');
+	const btnNext = $('.buttons-next');
+	const itemWidth = container.width() / slidesToShow;
+
+	item.each(function (index, item) {
+		$(item).css({
+			minWidth: itemWidth,
+		})
+	});
+});
