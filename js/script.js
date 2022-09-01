@@ -19,7 +19,7 @@ document.querySelectorAll(".list-link").forEach(n => n.addEventListener("click",
 /* Slider----------------------------------------------------- */
 $(document).ready(function () {
 	let position = 0;
-	const slidesToShow = 2;
+	const slidesToShow = 3;
 	const slidesToScroll = 2;
 	const container = $('.slider-container');
 	const track = $('.slider-track');
@@ -27,6 +27,7 @@ $(document).ready(function () {
 	const btnPrev = $('.buttons-prew');
 	const btnNext = $('.buttons-next');
 	const itemWidth = container.width() / slidesToShow;
+	const movePosition = slidesToScroll * itemWidth;
 
 	item.each(function (index, item) {
 		$(item).css({
@@ -34,12 +35,21 @@ $(document).ready(function () {
 		})
 	});
 
-	btnPrev.click(function () {
-		console.log('btnPrev');
-	});
+
 
 	btnNext.click(function () {
-		console.log('btnNext');
+		position -= movePosition;
+
+		track.css({
+			transform: `translateX(${position}px)`
+		});
 	})
+
+	btnPrev.click(function () {
+		position += movePosition;
+		track.css({
+			transform: `translateX(${position}px)`
+		});
+	});
 
 });
