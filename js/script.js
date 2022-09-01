@@ -19,12 +19,12 @@ document.querySelectorAll(".list-link").forEach(n => n.addEventListener("click",
 /* Slider----------------------------------------------------- */
 $(document).ready(function () {
 	let position = 0;
-	const slidesToShow = 3;
+	const slidesToShow = 2;
 	const slidesToScroll = 2;
 	const container = $('.slider-container');
 	const track = $('.slider-track');
 	const item = $('.slider-item');
-	const btnPrew = $('.buttons-prew');
+	const btnPrev = $('.buttons-prew');
 	const btnNext = $('.buttons-next');
 	const itemWidth = container.width() / slidesToShow;
 
@@ -33,4 +33,13 @@ $(document).ready(function () {
 			minWidth: itemWidth,
 		})
 	});
+
+	btnPrev.click(function () {
+		console.log('btnPrev');
+	});
+
+	btnNext.click(function () {
+		console.log('btnNext');
+	})
+
 });
