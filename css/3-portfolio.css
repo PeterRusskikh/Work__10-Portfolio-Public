@@ -57,12 +57,14 @@
 
 /* Slider----------------------------------------------------- */
 .slider {
-	width: 600px;
+	width: 100%;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 100px;
 }
 .slider-container {
 	overflow: hidden;
+	max-width: 100%;
+	height: auto;
 	background-color: pink;
 	
 }
@@ -72,7 +74,7 @@
 	transition: .2s;
 }
 .slider-item {
-	height: 100px;
+	height: auto;
 	
 }
 .slider-item:nth-child(3n+1) {background-color: red;}
@@ -85,7 +87,14 @@
 	
 }
 
-
+.slider-item:hover img{
+	transform: scale(1.1);
+}
+.slider-item img{
+	max-width: 100%;
+	height: auto;
+	transition: all .5s ease;
+}
 
 
 
