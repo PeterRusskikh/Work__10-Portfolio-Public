@@ -88,7 +88,8 @@
 }
 
 .slider-item:hover img{
-	transform: scale(1.1);
+	transform: scale(1.01);
+	cursor: pointer;
 }
 .slider-item img{
 	max-width: 100%;
