@@ -89,6 +89,12 @@
 	.page__about-skills {
 		margin-top: 16vh;
 	}
+	.page__about-text h6 {
+		font-size: 30px;	
+	}
+	.page__about-text p p {
+		font-size: 20px;
+	}
 }
 @media (max-width: 598px) {
 	.skills__block {
