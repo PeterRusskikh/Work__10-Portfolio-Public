@@ -139,9 +139,7 @@
 .btn-style-r:hover, .btn-style-l:hover {
 	border: 1px solid #888888;
 }
-.slider-container {
-	transform: scale(1.05) translateZ(0);
-}
+
 .slider-item img {
 	filter: brightness(1) saturate(2) contrast(1) blur(30px);
 }
@@ -153,14 +151,15 @@
 	position: absolute;
 	padding: 20px;
 	top: 0;
-	
 	width: 100%;
 	color: rgb(49, 90, 49);
 	font-size: 40px;
   }
 
 @media (max-width: 1016px){
-
+	.card__content{
+		font-size: 30px;
+	  }
 }
 @media (max-width: 778px){
 	.page__portfolio-img img {
@@ -172,6 +171,9 @@
 	.page__portfolio-text p {
 		font-size: 20px;
 	}
+	.card__content{
+		font-size: 20px;
+	  }
 }
 @media (max-width: 598px) {
 	.footer__text {
