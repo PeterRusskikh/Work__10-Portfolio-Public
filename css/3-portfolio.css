@@ -143,13 +143,21 @@
 	transform: scale(1.05) translateZ(0);
 }
 .slider-item img {
-	filter: brightness(1) saturate(2) contrast(1) blur(111px);
+	filter: brightness(1) saturate(2) contrast(1) blur(30px);
 }
 .slider-item img:hover {
 	filter:  blur(0px);
 }
 
-
+.card__content{
+	position: absolute;
+	padding: 20px;
+	top: 0;
+	
+	width: 100%;
+	color: rgb(49, 90, 49);
+	font-size: 40px;
+  }
 
 @media (max-width: 1016px){
 
