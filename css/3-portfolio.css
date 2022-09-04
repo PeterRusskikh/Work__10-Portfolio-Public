@@ -138,10 +138,8 @@
 	border: 1px solid #888888;
 }
 
-.slider-item img {
-	
-	filter: brightness(1) saturate(2) contrast(1) blur(30px);
-	transition: all .5s ease;
+.slider-item img {	
+	filter: brightness(1) saturate(2) contrast(1) blur(20px);
 }
 .slider-item img:hover {
 	filter:  blur(0px);
@@ -151,8 +149,19 @@
 }
 .card__content{
 	position: absolute;
-	padding: 20px;
+	padding: 10px;
 	bottom: 0;
+	width: 100%;
+	color:white;
+	font-size: 40px;
+	background-color: black;
+	border: 1px solid white;
+	text-align: center;
+  }
+  .title-name {
+	position: absolute;
+	padding: 10px;
+	top: 0;
 	width: 100%;
 	color:white;
 	font-size: 40px;
