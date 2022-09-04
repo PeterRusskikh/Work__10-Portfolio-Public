@@ -178,7 +178,9 @@
 	  .slider {
 		width: auto;
 		height: auto;
-		
+	}
+	.card__content {
+		font-size: 20px;
 	}
 	
 }
