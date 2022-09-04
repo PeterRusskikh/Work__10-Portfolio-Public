@@ -19,7 +19,7 @@ document.querySelectorAll(".list-link").forEach(n => n.addEventListener("click",
 /* Slider----------------------------------------------------- */
 
 let position = 0;
-const slidesToShow = 1;
+const slidesToShow = 3;
 const slidesToScroll = 1;
 const container = document.querySelector('.slider-container');
 const track = document.querySelector('.slider-track');
@@ -61,4 +61,3 @@ const checkBtns = () => {
 
 checkBtns();
 
-/* ----------------------------------------------------- */
