@@ -50,8 +50,8 @@
 
 /* Slider----------------------------------------------------- */
 .slider {
-	width: 373px;
-	height: 370px;
+	width: auto;
+	height: auto;
 	margin: 0 auto;
 	margin-top: 60px;
 }
