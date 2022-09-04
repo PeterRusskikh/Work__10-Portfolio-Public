@@ -50,8 +50,7 @@
 
 /* Slider----------------------------------------------------- */
 .slider {
-	width: auto;
-	height: auto;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 60px;
 }
@@ -175,5 +174,11 @@
 	.card__content{
 		font-size: 20px;
 	  }
+	  .slider {
+		width: auto;
+		height: auto;
+		
+	}
+	
 }
 
