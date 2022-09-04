@@ -186,3 +186,23 @@ body {
 	font-weight: 400;
 	padding: 13px 0px;
 }
+@media (max-width: 1150px) {
+	
+	.footer__text {
+		font-size: 20px;
+	}
+
+}
+@media (max-width: 778px) {
+	
+	.footer__text {
+		font-size: 16px;
+	}
+}
+@media (max-width: 630px){
+
+	.footer__text {
+		font-size: 12px;
+	}
+
+}

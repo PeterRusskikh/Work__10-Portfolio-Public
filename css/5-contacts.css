@@ -111,9 +111,6 @@
 	.page__contacts-send-title {
 		font-size: 22px;
 	}
-	.footer__text {
-		font-size: 18px;
-	}
 	.page__contacts-text h6 {
 		font-size: 30px;
 	}
@@ -147,9 +144,6 @@
 	}
 	.page__contacts-form:last-child {
 		padding-bottom: 15px;
-	}
-	.footer__text {
-		font-size: 13px;
 	}
 }
 @media (max-width: 359px) {
