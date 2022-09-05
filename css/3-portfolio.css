@@ -161,10 +161,7 @@
 	.card__content{
 		font-size: 30px;
 	  }
-	  .slider-track {
-		
-	
-	}
+
 }
 @media (max-width: 778px){
 	.page__portfolio-img img {
@@ -192,6 +189,9 @@
 	.slider-container {
 		margin-top: -200px;
 	}
+	.card__content {
+		font-size: 20px;
+	}
 
 	
 }
@@ -199,5 +199,8 @@
 @media (max-width: 450px) {
 	.slider-container {
 		margin-top: -150px;
+	}
+	.card__content {
+		font-size: 10px;
 	}
 }
