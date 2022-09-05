@@ -36,14 +36,11 @@
 	line-height: 38px;
 	font-weight: 400;
 }
-
-
 .work__1 {
 	width: 500px;
 	height: 300px;
 	background-color: black;
-	margin: 20px;
-	
+	margin: 20px;	
 }
 
 
@@ -57,7 +54,6 @@
 	max-width: 100%;
 	height: auto;
 }
-
 .slider-track {
 	display: flex;
 	
@@ -66,24 +62,18 @@
 .slider-item {
 	height: auto;
 	border: 2px solid;
-	
 }
-
-
 .slider-buttons {
 	text-align: center;
 	margin-top: 30px;
 }
 
-
 .slider-item img{
 	max-width: 100%;
 	height: 100%;
 	transition: all .5s ease;
-	object-fit: cover;
-	
+	object-fit: cover;	
 }
-
 .btn-style {
 	width: 60px;
 	height: 40px;
@@ -140,7 +130,9 @@
 }
 .slider-item {
 	position: relative;
+
 }
+
 .card__content{
 	position: absolute;
 	padding: 10px;
@@ -151,10 +143,13 @@
 	background-color: black;
 	border: 1px solid white;
 	text-align: center;
+	
   }
   .card__content:hover {
 	color: #888888;;
   }
+
+  
 
 
 @media (max-width: 1016px){
@@ -187,20 +182,36 @@
 		margin-top: 50%;
 	}
 	.slider-container {
-		margin-top: -200px;
+		margin-top: -210px;
 	}
 	.card__content {
 		font-size: 20px;
 	}
-
+	.header__nav-logo img {
+		width: 90%;
+	}
 	
 }
 
 @media (max-width: 450px) {
+	.page__portfolio-text p {
+		font-size: 18px;
+		margin-top: 5px;
+	}
 	.slider-container {
-		margin-top: -150px;
+		margin-top: -170px;
 	}
 	.card__content {
-		font-size: 10px;
+		font-size: 15px;
+	}
+	.slider-track {
+		display: block;
+		padding-bottom: 15px;
+	}
+	.slider-buttons {
+		display: none;
+	}
+	.slider-item {
+		height: 300px;
 	}
 }

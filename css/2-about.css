@@ -118,6 +118,13 @@
 	.skills__item:nth-child(3){
 		margin-top: 20px;
 	}
+	.page__about-text p {
+		font-size: 18px;
+		margin-top: 0px;
+	}
+	.skills__title {
+		margin-top: 0px;
+	}
 }
 @media (max-width: 291px){
 	.skills__item:nth-child(2){

@@ -145,6 +145,16 @@
 	.page__contacts-form:last-child {
 		padding-bottom: 15px;
 	}
+	.page__contacts-text h6 {
+		margin-top: -20px;
+	}
+	.page__contacts-text p {
+		font-size: 18px;
+		margin-top: 0px;
+	}
+	.skills__title {
+		margin-top: 0px;
+	}
 }
 @media (max-width: 359px) {
 	.page__contacts-social a:last-child {
