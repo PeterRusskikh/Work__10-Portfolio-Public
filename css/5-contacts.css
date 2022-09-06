@@ -3,7 +3,7 @@
 
 .page__contacts {
 	display: flex;
-	margin-top: 60px;
+	margin-top: 40px;
 	justify-content: space-between;
 	column-gap: 10px;
 }

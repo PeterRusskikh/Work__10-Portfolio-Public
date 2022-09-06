@@ -9,6 +9,7 @@
 .gallery{
 	position: relative;
 	padding-top: 30px;
+	padding-bottom: 20px;
   }
   .title {
 	font-size: 44px;
