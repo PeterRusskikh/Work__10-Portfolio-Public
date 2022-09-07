@@ -73,7 +73,6 @@ body {
 	}
 	.header__nav-menu-list {
 		display: flex;
-		column-gap: 20px;
 	}
 	.header__nav-menu-list li a{
 		font-size: 16px;
@@ -86,6 +85,7 @@ body {
 		column-gap: 10px;
 	}
 }
+
 /*---------BURGER----------------------------------------*/
 .hamburger {
 	display: none;
@@ -100,7 +100,7 @@ body {
 	-webkit-transition: all 0.4s ease-in-out;
 	background-color: white;
 }
-@media (max-width: 778px) {
+@media (max-width: 870px) {
 	.hamburger {
 		display: block;
 	}
