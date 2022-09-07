@@ -60,6 +60,8 @@ body {
 	-webkit-filter: sepia(1) hue-rotate(320deg) saturate(10);
 	filter: invert(56%) sepia(0%) saturate(2%) hue-rotate(39deg) brightness(96%) contrast(90%);
 }
+
+
 /*---------BURGER----------------------------------------*/
 .hamburger {
 	display: none;
@@ -71,9 +73,9 @@ body {
 	width: 30px;
 	height: 3px;
 	margin: 5px auto;
-	-webkit-transition: all 0.4s ease-in-out;
 	background-color: white;
 }
+
 @media (max-width: 778px) {
 	.hamburger {
 		display: block;
