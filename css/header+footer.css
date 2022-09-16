@@ -87,12 +87,6 @@ body {
 }
 
 /*---------BURGER----------------------------------------*/
-.hamburger {
-	display: none;
-	cursor: pointer;
-	margin-right: 20px;
-}
-
 .bar {
 	display: block;
 	width: 30px;
@@ -100,6 +94,13 @@ body {
 	margin: 5px auto;
 	background-color: white;
 }
+.hamburger {
+	display: none;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+
 
 
 
