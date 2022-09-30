@@ -75,10 +75,11 @@
 	padding: 10px;
 	font-size: 18px;
 }
-.page__contacts-form textarea:focus {
+.page__contacts-form input:focus {
 	border: 1px solid black;
 }
-.page__contacts-form input:focus {
+
+.page__contacts-form textarea:focus {
 	border: 1px solid black;
 }
 
